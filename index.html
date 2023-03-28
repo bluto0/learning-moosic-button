@@ -5,7 +5,7 @@
 	const ctx = new window.AudioContext()
   const btn = document.querySelector('button')
   
-  function play () {
+  function play() {
     //creating an audio context
     const osc = ctx.createOscillator()
     osc.type = "sine"
@@ -17,6 +17,6 @@
     osc.stop(ctx.currentTime + 1)
   }
 
-
+	play()
   
 </script>
